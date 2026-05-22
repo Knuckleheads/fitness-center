@@ -1,0 +1,23 @@
+# Секреты — никогда не коммитить
+secrets.env
+**/secrets.env
+*.key
+*.pem
+.env*.local
+
+# Инструменты разработки
+.omc/
+.omx/
+.claude/
+.serena/
+.mcp.json
+.vscode/
+
+# Логи
+*.log
+debug.log
+claude-debug.log
+
+# OS
+.DS_Store
+Thumbs.db

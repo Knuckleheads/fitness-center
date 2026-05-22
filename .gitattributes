@@ -1,0 +1,23 @@
+# Автоопределение типов файлов
+* text=auto
+
+# Shell-скрипты — всегда LF
+*.sh text eol=lf
+
+# Windows-скрипты — CRLF
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# XML/BSL (1С) — LF
+*.xml text eol=lf
+*.bsl text eol=lf
+
+# Бинарные файлы
+*.png binary
+*.jpg binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary

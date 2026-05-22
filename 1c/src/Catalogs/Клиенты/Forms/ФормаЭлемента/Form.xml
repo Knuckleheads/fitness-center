@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AutoFillCheck>false</AutoFillCheck>
+	<Attributes>
+		<Attribute xsi:type="DataPathAttribute">
+			<Name>Объект</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект</v8:content>
+				</v8:item>
+			</Synonym>
+			<View/>
+			<EditView/>
+			<AutoMarkIncomplete>false</AutoMarkIncomplete>
+			<AutoChoice>false</AutoChoice>
+			<DataPath>Object</DataPath>
+		</Attribute>
+	</Attributes>
+	<Items>
+		<FormGroup xsi:type="FormGroup">
+			<Name>ГруппаОсновная</Name>
+			<Title/>
+			<ToolTip/>
+			<VerticalStretch>false</VerticalStretch>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ReadOnly>false</ReadOnly>
+			<EnableContentChange>false</EnableContentChange>
+			<GroupBorder>None</GroupBorder>
+			<UserInterface/>
+			<Representation>VerticalIfNarrow</Representation>
+			<Items>
+				<InputField xsi:type="InputField">
+					<Name>Наименование</Name>
+					<DataPath>Объект.Наименование</DataPath>
+					<HorizontalStretch>true</HorizontalStretch>
+				</InputField>
+				<InputField xsi:type="InputField">
+					<Name>Телефон</Name>
+					<DataPath>Объект.Телефон</DataPath>
+					<HorizontalStretch>true</HorizontalStretch>
+				</InputField>
+				<InputField xsi:type="InputField">
+					<Name>ЭлектроннаяПочта</Name>
+					<DataPath>Объект.ЭлектроннаяПочта</DataPath>
+					<HorizontalStretch>true</HorizontalStretch>
+				</InputField>
+				<InputField xsi:type="InputField">
+					<Name>ДатаРождения</Name>
+					<DataPath>Объект.ДатаРождения</DataPath>
+				</InputField>
+				<CheckBox xsi:type="CheckBox">
+					<Name>Активен</Name>
+					<DataPath>Объект.Активен</DataPath>
+				</CheckBox>
+			</Items>
+		</FormGroup>
+	</Items>
+	<Commands/>
+	<Parameters/>
+	<CommandInterface>
+		<NavigationPanel/>
+		<CommandBar/>
+	</CommandInterface>
+	<AutoCommandBar>
+		<Visible>true</Visible>
+		<Placement xen:Type="FormElementCommandBarPlacement">Auto</Placement>
+	</AutoCommandBar>
+	<Handlers/>
+</Form>

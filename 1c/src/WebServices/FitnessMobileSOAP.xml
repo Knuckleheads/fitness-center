@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<WebService uuid="34422f63-4ea3-465a-8a96-204dd199bfb5">
+		<Properties>
+			<Name>FitnessMobileSOAP</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Fitness mobile SOAP</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Пример SOAP-сервиса для внешних интеграций мобильного приложения.</Comment>
+			<Namespace>http://fitness-center.local/mobile/v1</Namespace>
+			<XDTOPackages/>
+			<DescriptorFileName>FitnessMobileSOAP.1cws</DescriptorFileName>
+			<ReuseSessions>Use</ReuseSessions>
+			<SessionMaxAge>20</SessionMaxAge>
+		</Properties>
+		<ChildObjects>
+			<Operation uuid="8e79b4a8-821c-4267-bdc5-8c3daf198c26">
+				<Properties>
+					<Name>Health</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Health</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Проверка доступности SOAP-сервиса.</Comment>
+					<XDTOReturningValueType>xs:string</XDTOReturningValueType>
+					<Nillable>false</Nillable>
+					<Transactioned>false</Transactioned>
+					<ProcedureName>Health</ProcedureName>
+					<DataLockControlMode>Managed</DataLockControlMode>
+				</Properties>
+				<ChildObjects/>
+			</Operation>
+			<Operation uuid="a767995f-585c-41a7-92b6-34fb48946b8e">
+				<Properties>
+					<Name>GetClientsJSON</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get clients JSON</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Возвращает список клиентов JSON-строкой.</Comment>
+					<XDTOReturningValueType>xs:string</XDTOReturningValueType>
+					<Nillable>false</Nillable>
+					<Transactioned>false</Transactioned>
+					<ProcedureName>GetClientsJSON</ProcedureName>
+					<DataLockControlMode>Managed</DataLockControlMode>
+				</Properties>
+				<ChildObjects/>
+			</Operation>
+			<Operation uuid="0ee807b0-b0b0-4c58-a7d2-0c89a20e6384">
+				<Properties>
+					<Name>GetClassesJSON</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get classes JSON</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Возвращает список занятий JSON-строкой.</Comment>
+					<XDTOReturningValueType>xs:string</XDTOReturningValueType>
+					<Nillable>false</Nillable>
+					<Transactioned>false</Transactioned>
+					<ProcedureName>GetClassesJSON</ProcedureName>
+					<DataLockControlMode>Managed</DataLockControlMode>
+				</Properties>
+				<ChildObjects/>
+			</Operation>
+		</ChildObjects>
+	</WebService>
+</MetaDataObject>

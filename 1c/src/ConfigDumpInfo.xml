@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ОстаткиАбонементов" id="ef3b79c9-ad2a-4a0a-9b11-dad7063d95b8" configVersion="4cde33ac1406934f9af04ed7239143d800000000">
+			<Metadata name="AccumulationRegister.ОстаткиАбонементов.Dimension.АбонементКлиента" id="0e551fef-b4e1-49de-a949-bc0c19630979"/>
+			<Metadata name="AccumulationRegister.ОстаткиАбонементов.Resource.КоличествоПосещений" id="2f89d385-ebb7-47f1-a86b-30e6c5f3ce7e"/>
+		</Metadata>
+		<Metadata name="Catalog.АбонементыКлиентов" id="fb516251-19b9-4cc3-8f5f-0981019e02bf" configVersion="e7a63adc6459f840b72b3dee8041439200000000">
+			<Metadata name="Catalog.АбонементыКлиентов.Attribute.ДатаНачала" id="b382bab3-147f-4726-a38f-ef5aa1bbe468"/>
+			<Metadata name="Catalog.АбонементыКлиентов.Attribute.Заморожен" id="bb6b23e3-9c54-4b68-9287-be4d10f8c08a"/>
+			<Metadata name="Catalog.АбонементыКлиентов.Attribute.ВидАбонемента" id="c5829e76-1c19-4e8a-9d95-6fed98afb267"/>
+			<Metadata name="Catalog.АбонементыКлиентов.Attribute.ОстатокПосещений" id="cdbe2dec-9de0-41e8-84da-7168a6d235f1"/>
+			<Metadata name="Catalog.АбонементыКлиентов.Attribute.Активен" id="ce713afd-db22-4277-9776-9acaeda2c674"/>
+			<Metadata name="Catalog.АбонементыКлиентов.Attribute.ДатаОкончания" id="d130b987-c206-4c06-ac9b-beaf46d74016"/>
+			<Metadata name="Catalog.АбонементыКлиентов.Attribute.Клиент" id="d1d9374c-f0d3-470e-8687-6c4b14c02177"/>
+		</Metadata>
+		<Metadata name="Catalog.АбонементыКлиентов.Form.ФормаСписка" id="428ac53e-1c52-4e3e-8c71-bc211572c939" configVersion="8f281b5c6608b84aacf109a300f4002200000000"/>
+		<Metadata name="Catalog.АбонементыКлиентов.Form.ФормаЭлемента" id="3a80bc59-e732-4c41-b02c-cbd8b0e62332" configVersion="af09daf35d875045ae73f96e730081cb00000000"/>
+		<Metadata name="Catalog.ВидыАбонементов" id="821cb934-25e2-4585-bc42-9de4568082f8" configVersion="b8ffe5cff86bcc4c83abd128e56f380000000000">
+			<Metadata name="Catalog.ВидыАбонементов.Attribute.Активен" id="06a2884c-f5a6-4d5e-9784-6d6bc163754f"/>
+			<Metadata name="Catalog.ВидыАбонементов.Attribute.Цена" id="188b0b7c-d752-4785-9134-4b0334c3a4f2"/>
+			<Metadata name="Catalog.ВидыАбонементов.Attribute.СрокДействияВДнях" id="d4957b77-aad6-43b7-8d72-abb0a53059c8"/>
+			<Metadata name="Catalog.ВидыАбонементов.Attribute.КоличествоПосещений" id="e0b81d49-9fb6-4016-990a-9231049ffb66"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыАбонементов.Form.ФормаСписка" id="2d540d3f-1e05-4045-8b50-509565f06215" configVersion="452fd9b5a38e3f4799dc317c9fd536ee00000000"/>
+		<Metadata name="Catalog.ВидыАбонементов.Form.ФормаЭлемента" id="e290f767-0cab-4ac9-b1a3-02f418ad3c2c" configVersion="a52f06ffbe9bb0449cb240ef04c8692200000000"/>
+		<Metadata name="Catalog.Залы" id="07462870-a8d6-4c35-afd9-a586406ff520" configVersion="d35b4275bdc643488e92afe2f1bba37000000000">
+			<Metadata name="Catalog.Залы.Attribute.Вместимость" id="67cec70d-8157-4a1e-9b20-6adc65cb5898"/>
+			<Metadata name="Catalog.Залы.Attribute.Активен" id="ec3d404b-b608-4b6f-9ac1-f9a8ef03843b"/>
+		</Metadata>
+		<Metadata name="Catalog.Залы.Form.ФормаСписка" id="a601d8ec-5cf5-4df8-957b-b89b3d75899d" configVersion="cb0e7122680c7048bcbae5f9d2ed6a9b00000000"/>
+		<Metadata name="Catalog.Залы.Form.ФормаЭлемента" id="b5bff722-484f-44ba-9660-eebd3ad96e14" configVersion="9d5e598467669742a50324d02d021cd200000000"/>
+		<Metadata name="Catalog.Занятия" id="406609de-bd53-4d51-bbf4-371c52e1e596" configVersion="37f8537ded388142a06e3e9dea9c2f6f00000000">
+			<Metadata name="Catalog.Занятия.Attribute.ПродолжительностьМинут" id="0cf9754c-16f8-4ef2-b539-f75bd8f046d9"/>
+			<Metadata name="Catalog.Занятия.Attribute.ДатаНачала" id="74a830ed-88c7-4220-b7a2-4524736ebcfd"/>
+			<Metadata name="Catalog.Занятия.Attribute.Тренер" id="7ce9701f-574d-4d05-b9e7-21fc051efbf0"/>
+			<Metadata name="Catalog.Занятия.Attribute.Вместимость" id="8269e9d8-09eb-489b-9438-79632ca2ce75"/>
+			<Metadata name="Catalog.Занятия.Attribute.Активно" id="d0690e4e-1c5e-4327-9788-0cc24e66e2a5"/>
+			<Metadata name="Catalog.Занятия.Attribute.Зал" id="d07d3b30-addd-4d05-a477-4da33a50ff9f"/>
+		</Metadata>
+		<Metadata name="Catalog.Занятия.Form.ФормаСписка" id="e72d0483-40f5-48da-877a-c3e79ebb24f7" configVersion="c446228305dc7c49893ed11b59a2e42d00000000"/>
+		<Metadata name="Catalog.Занятия.Form.ФормаЭлемента" id="1a12aa94-6dd4-48f3-b2be-aaf7d79f3f6b" configVersion="75bf3185ebe0414ba49b0bd893177a3300000000"/>
+		<Metadata name="Catalog.Клиенты" id="1307f132-c1b9-4b9a-9aae-600ddfaab75a" configVersion="d5fca861560c2941be9db97227c2d3e700000000">
+			<Metadata name="Catalog.Клиенты.Attribute.ДатаРождения" id="0934ad99-e523-4363-a4d3-be9397c15c20"/>
+			<Metadata name="Catalog.Клиенты.Attribute.Активен" id="6864b854-6995-42f1-86d1-7ea52ba76987"/>
+			<Metadata name="Catalog.Клиенты.Attribute.ЭлектроннаяПочта" id="7973b310-3f90-4c72-a659-4308ea24d7e3"/>
+			<Metadata name="Catalog.Клиенты.Attribute.Телефон" id="a55f5f37-9ce1-4dfa-a2b3-25512292294d"/>
+		</Metadata>
+		<Metadata name="Catalog.Клиенты.Form.ФормаСписка" id="7e6d3d3c-9044-4d88-9764-a19ef359991a" configVersion="57b47005ccadae43a52379bac72c981600000000"/>
+		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента" id="24e55a66-6d51-49f8-a825-d334f209ad13" configVersion="af69927224abf740af4f3613a3af220400000000"/>
+		<Metadata name="Catalog.Тренеры" id="e7b3b903-5557-4ac0-a690-ffc9e2ffee58" configVersion="34ed240ef30aa04bb90984f93290dd8b00000000">
+			<Metadata name="Catalog.Тренеры.Attribute.ЭлектроннаяПочта" id="18815384-9d58-4d97-bbee-576e86d41347"/>
+			<Metadata name="Catalog.Тренеры.Attribute.Специализация" id="32b307a8-67f7-4a04-872d-87f86679d219"/>
+			<Metadata name="Catalog.Тренеры.Attribute.Телефон" id="6c11de8a-a14d-402a-9b57-8b166a9fe8e2"/>
+			<Metadata name="Catalog.Тренеры.Attribute.Активен" id="fb07d3ae-f917-43a4-9d6a-02aa7ad50062"/>
+		</Metadata>
+		<Metadata name="Catalog.Тренеры.Form.ФормаСписка" id="80ddd994-2712-404c-a2c6-4f36950f5159" configVersion="9d31e476805317419cf093cf3fe622c200000000"/>
+		<Metadata name="Catalog.Тренеры.Form.ФормаЭлемента" id="e2f6daf3-71c9-4130-b03a-aeb6546f781a" configVersion="4435773ac51d744f9f46a72315c856cb00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="c45ab365-3461-4e46-ac6e-a6d860ecaec6" configVersion="1ab278c9f6c4324e8ce98b71f5f428bc00000000"/>
+		<Metadata name="Document.ЗаписьНаЗанятие" id="b00fb296-0464-4c54-a310-4abe583217c0" configVersion="2444ceca41cdb3478f3878fe6306f52c00000000">
+			<Metadata name="Document.ЗаписьНаЗанятие.Attribute.Комментарий" id="147e59cc-b478-4523-a3bf-81d01b10b92a"/>
+			<Metadata name="Document.ЗаписьНаЗанятие.Attribute.Занятие" id="3ef5cb19-e0a0-4b84-b127-8bc4ce60332c"/>
+			<Metadata name="Document.ЗаписьНаЗанятие.Attribute.Клиент" id="44995aef-a05f-443f-ac2d-262ee4617e01"/>
+			<Metadata name="Document.ЗаписьНаЗанятие.Attribute.Отменена" id="7e352a18-81b0-4e91-8b62-a47579790866"/>
+			<Metadata name="Document.ЗаписьНаЗанятие.Attribute.АбонементКлиента" id="a2807dbc-9296-4751-9558-3794dd63fa2e"/>
+		</Metadata>
+		<Metadata name="Document.ЗаписьНаЗанятие.Form.ФормаДокумента" id="8a5567fa-8fe1-473e-a682-b274be206272" configVersion="4fe642e5f54d77438896deb26a841c2000000000"/>
+		<Metadata name="Document.ЗаписьНаЗанятие.Form.ФормаСписка" id="aa6f8931-3b3e-4aaa-8a4f-76a972eea699" configVersion="d4cddcb613f1674c980bbf4a9c27d72a00000000"/>
+		<Metadata name="Document.ЗаписьНаЗанятие.ObjectModule" id="b00fb296-0464-4c54-a310-4abe583217c0.0" configVersion="a39f626f7eb0c1439ee827522e597d8a00000000"/>
+		<Metadata name="Document.ОформлениеАбонемента" id="e6247556-2ba6-454b-8707-aca8236018e1" configVersion="bcaac9cffb07f94699d995500cd03db500000000">
+			<Metadata name="Document.ОформлениеАбонемента.Attribute.ДатаНачала" id="58a00cf6-0974-45a8-b4ba-9b9ade77c039"/>
+			<Metadata name="Document.ОформлениеАбонемента.Attribute.Сумма" id="61184cec-240c-439c-be7e-539a89fc3801"/>
+			<Metadata name="Document.ОформлениеАбонемента.Attribute.ДатаОкончания" id="6d1e32a3-0c02-44eb-a3b4-3b72e4fdfef1"/>
+			<Metadata name="Document.ОформлениеАбонемента.Attribute.ВидАбонемента" id="a0e0df4d-7ee7-4846-b3ff-47a4dac50087"/>
+			<Metadata name="Document.ОформлениеАбонемента.Attribute.Комментарий" id="a1817f84-2706-4910-9de6-32e10328e264"/>
+			<Metadata name="Document.ОформлениеАбонемента.Attribute.КоличествоПосещений" id="a9a82803-5269-40ca-b941-d00f7c72203e"/>
+			<Metadata name="Document.ОформлениеАбонемента.Attribute.Клиент" id="ba821c8b-e06e-4fb0-bc44-24538ee732e8"/>
+			<Metadata name="Document.ОформлениеАбонемента.Attribute.АбонементКлиента" id="fc811ecd-44f8-4ba5-b5ca-264a65d6fcff"/>
+		</Metadata>
+		<Metadata name="Document.ОформлениеАбонемента.Form.ФормаДокумента" id="b1cfcdf4-8ce0-40f4-a514-1c551d72fde1" configVersion="a3b56ff4eeec8d49a25d6b08b380914200000000"/>
+		<Metadata name="Document.ОформлениеАбонемента.Form.ФормаСписка" id="a17458d5-921b-43dd-996a-6fd55ea5ed12" configVersion="8cb0ac3fd74d3141890976117a828c4700000000"/>
+		<Metadata name="Document.ОформлениеАбонемента.ObjectModule" id="e6247556-2ba6-454b-8707-aca8236018e1.0" configVersion="be64a0b05a644e46914251c1de2f9da600000000"/>
+		<Metadata name="Document.Посещение" id="77d6f4f7-e3f9-47e2-8008-d736bf3311d4" configVersion="311e2ef1adbf31418dfdcdbdc4e262b600000000">
+			<Metadata name="Document.Посещение.Attribute.Клиент" id="6106a9d3-4700-4d6a-93f0-83168fab2cb1"/>
+			<Metadata name="Document.Посещение.Attribute.АбонементКлиента" id="618768b9-3720-4e64-972b-e83c65876682"/>
+			<Metadata name="Document.Посещение.Attribute.Занятие" id="64fcbb22-d1fd-4392-8fec-c73c421895d8"/>
+			<Metadata name="Document.Посещение.Attribute.Комментарий" id="84fcb3ad-cefe-4c8e-a2a1-1deeae2c2162"/>
+			<Metadata name="Document.Посещение.Attribute.ВремяПосещения" id="e26b5ef9-63fb-42c6-91a1-a08c1b97881b"/>
+		</Metadata>
+		<Metadata name="Document.Посещение.Form.ФормаДокумента" id="c743b584-2166-4e72-9538-b8b85b38e3eb" configVersion="4da2fa80ca83094394a792f679d03d2a00000000"/>
+		<Metadata name="Document.Посещение.Form.ФормаСписка" id="e00e9f84-72ae-4d81-b092-238c978e2461" configVersion="868910bdc8d2424aa67437f1ac75905b00000000"/>
+		<Metadata name="Document.Посещение.ObjectModule" id="77d6f4f7-e3f9-47e2-8008-d736bf3311d4.0" configVersion="c11443686ff8c84781297e47bbce0e2400000000"/>
+		<Metadata name="HTTPService.FitnessMobile" id="1398cd1e-09d0-4100-95fc-ac66633534e5" configVersion="06b14c55ecaf8b49a750c8b6d7efa15c00000000">
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Memberships.Method.GET" id="2234dce3-320c-454a-a544-2ee2542fb6e7"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Visits" id="2f1791bb-5904-4fcf-997d-0c2fb55e143f"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Clients.Method.GET" id="40bc8907-e1cd-431a-a760-d409ce6617fb"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Health" id="506f7e82-5545-402a-9e1b-f42308601dd7"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Visits.Method.POST" id="5c608eed-f11e-4b97-bb35-cade8b9d9e05"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.ODataClients.Method.GET" id="5fa7f92e-e638-4851-81ed-adadd2a88274"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.ODataMetadata.Method.GET" id="62a5b7b7-9813-4854-9603-04a17f40b455"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Memberships.Method.POST" id="66c47a07-2da1-464e-886c-82e02e38c0da"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.ODataClasses.Method.GET" id="6773ce53-c493-416f-8ccd-0121a1bda95a"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Classes" id="6d2a7a4e-d401-4ac8-bc0b-949f1ca10b35"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.ODataMetadata" id="6d30df21-3ca6-4536-ab35-7216cdc934e1"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.ODataClients" id="84e3a1d0-105d-4026-ba00-4a6a355c85a5"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Health.Method.GET" id="b226a6a0-fa1d-433e-8b34-7d86ebcc9bfb"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Bookings.Method.POST" id="b4db98be-62a9-4c44-a74f-5966c36e7b8a"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Memberships" id="b5b28907-290b-4fc2-9558-470daacc7d97"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Classes.Method.GET" id="c04f3aff-2744-4394-8a2a-2aca38ca7dba"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.MembershipTypes.Method.GET" id="d558b23a-0239-4ed6-9fc3-68b0509fc7f2"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Clients" id="d89a9d0d-2fa5-414f-881f-009dbbe1119f"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.Bookings" id="e02cc8ba-4766-4d32-8172-c0eec37af8bb"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.ODataClasses" id="e4d8a70a-afda-4951-8850-ce6e0264fd16"/>
+			<Metadata name="HTTPService.FitnessMobile.URLTemplate.MembershipTypes" id="fe08e689-446e-4ac0-8bea-64630c106e16"/>
+		</Metadata>
+		<Metadata name="HTTPService.FitnessMobile.Module" id="1398cd1e-09d0-4100-95fc-ac66633534e5.0" configVersion="ec526dc5c6a0f642a5e40da616d3ece200000000"/>
+		<Metadata name="InformationRegister.ЗаписиНаЗанятия" id="7fb47c89-8da1-42d3-a6e8-01e791abe5fa" configVersion="00c4d1245c71684d9744ecedc299e45d00000000">
+			<Metadata name="InformationRegister.ЗаписиНаЗанятия.Resource.ДокументЗаписи" id="00399905-9da0-4d4f-88cb-cc28fc3e2393"/>
+			<Metadata name="InformationRegister.ЗаписиНаЗанятия.Dimension.Занятие" id="377e93e1-9f6b-41f6-9651-554f4a80d21c"/>
+			<Metadata name="InformationRegister.ЗаписиНаЗанятия.Resource.Отменена" id="54cc1bcd-9654-420f-8dd8-09c19b652841"/>
+			<Metadata name="InformationRegister.ЗаписиНаЗанятия.Dimension.Клиент" id="920ed611-03c4-4591-9edf-e3eb8ac9774a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПосещенияКлиентов" id="3d791b9b-1ca7-4d05-bb6e-6c5f091819b4" configVersion="7d135f750f478648aa673c9fa7a4629000000000">
+			<Metadata name="InformationRegister.ПосещенияКлиентов.Dimension.Клиент" id="28318fb5-31a0-4f15-89b3-79ad69aff9e2"/>
+			<Metadata name="InformationRegister.ПосещенияКлиентов.Resource.ДокументПосещения" id="68f96d6a-9a10-4ed4-999c-b3d77479e3fc"/>
+			<Metadata name="InformationRegister.ПосещенияКлиентов.Dimension.Занятие" id="7af989df-5350-4005-b915-67147b38f985"/>
+			<Metadata name="InformationRegister.ПосещенияКлиентов.Resource.АбонементКлиента" id="f392c0e2-c85b-44c7-b9e8-e9fe17b05a08"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="f6c794c7-5212-44d4-aa19-55e9d4efe6ea" configVersion="dd25dacf74176a4a9f02afd5c34cb89900000000"/>
+		<Metadata name="Subsystem.Абонементы" id="1717f8f8-d57b-4863-ba19-6de328025f76" configVersion="9df638672afbb544a21ea5eed9312b7b00000000"/>
+		<Metadata name="Subsystem.Интеграции" id="ae55e694-872e-45a3-a04a-c733a5023a67" configVersion="7b75660a60149b4199e1fa886b42a78b00000000"/>
+		<Metadata name="Subsystem.НСИ" id="ac50ea53-a12f-415c-8a98-fb8df295d4f0" configVersion="4f4fa68260339047baa04f1ee89961ec00000000"/>
+		<Metadata name="Subsystem.РасписаниеИПосещения" id="c4c421d8-021b-45b5-9711-9fabaecbe788" configVersion="a7c97310d7a70e45a1d97d2cfcd29b4400000000"/>
+		<Metadata name="Subsystem.ФитнесЦентр" id="a3f8b2c1-d4e5-4f67-8901-23456789abcd" configVersion="6895913840edfe44a38b5026f57a63f000000000"/>
+		<Metadata name="WebService.FitnessMobileSOAP" id="34422f63-4ea3-465a-8a96-204dd199bfb5" configVersion="f11bcc1f02293b4eab06fb7b33bae0c300000000">
+			<Metadata name="WebService.FitnessMobileSOAP.Operation.GetClassesJSON" id="0ee807b0-b0b0-4c58-a7d2-0c89a20e6384"/>
+			<Metadata name="WebService.FitnessMobileSOAP.Operation.Health" id="8e79b4a8-821c-4267-bdc5-8c3daf198c26"/>
+			<Metadata name="WebService.FitnessMobileSOAP.Operation.GetClientsJSON" id="a767995f-585c-41a7-92b6-34fb48946b8e"/>
+		</Metadata>
+		<Metadata name="WebService.FitnessMobileSOAP.Module" id="34422f63-4ea3-465a-8a96-204dd199bfb5.0" configVersion="ede71812ad6c034b8e40da0e26fa9df600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

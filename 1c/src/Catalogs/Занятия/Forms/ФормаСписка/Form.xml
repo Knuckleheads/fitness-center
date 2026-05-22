@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AutoFillCheck>false</AutoFillCheck>
+	<Attributes>
+		<Attribute xsi:type="DynamicListAttribute">
+			<Name>Список</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список</v8:content>
+				</v8:item>
+			</Synonym>
+			<DataPath>List</DataPath>
+			<MainTable>Catalog.Занятия</MainTable>
+			<DynamicDataRead>true</DynamicDataRead>
+			<AutoQuery>true</AutoQuery>
+		</Attribute>
+	</Attributes>
+	<Items>
+		<FormTable xsi:type="FormTable">
+			<Name>Список</Name>
+			<DataPath>Список</DataPath>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<Items>
+				<Field xsi:type="Field">
+					<Name>СписокНаименование</Name>
+					<DataPath>Список.Наименование</DataPath>
+				</Field>
+				<Field xsi:type="Field">
+					<Name>СписокТренер</Name>
+					<DataPath>Список.Тренер</DataPath>
+				</Field>
+				<Field xsi:type="Field">
+					<Name>СписокЗал</Name>
+					<DataPath>Список.Зал</DataPath>
+				</Field>
+				<Field xsi:type="Field">
+					<Name>СписокДатаНачала</Name>
+					<DataPath>Список.ДатаНачала</DataPath>
+				</Field>
+				<Field xsi:type="Field">
+					<Name>СписокВместимость</Name>
+					<DataPath>Список.Вместимость</DataPath>
+				</Field>
+				<Field xsi:type="Field">
+					<Name>СписокАктивно</Name>
+					<DataPath>Список.Активно</DataPath>
+				</Field>
+			</Items>
+		</FormTable>
+	</Items>
+	<Commands/>
+	<Parameters/>
+	<CommandInterface>
+		<NavigationPanel/>
+		<CommandBar/>
+	</CommandInterface>
+	<AutoCommandBar>
+		<Visible>true</Visible>
+		<Placement xen:Type="FormElementCommandBarPlacement">Auto</Placement>
+	</AutoCommandBar>
+	<Handlers/>
+</Form>
