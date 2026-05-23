@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаОсновная" id="1">
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="1000"/>
+			<ChildItems>
+				<InputField name="Наименование" id="2">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="3"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="4"/>
+				</InputField>
+				<InputField name="Клиент" id="5">
+					<DataPath>Объект.Клиент</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="КлиентКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="7"/>
+				</InputField>
+				<InputField name="ВидАбонемента" id="8">
+					<DataPath>Объект.ВидАбонемента</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="ВидАбонементаКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="ВидАбонементаРасширеннаяПодсказка" id="10"/>
+				</InputField>
+				<InputField name="ДатаНачала" id="11">
+					<DataPath>Объект.ДатаНачала</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="13"/>
+				</InputField>
+				<InputField name="ДатаОкончания" id="14">
+					<DataPath>Объект.ДатаОкончания</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="ОстатокПосещений" id="17">
+					<DataPath>Объект.ОстатокПосещений</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="ОстатокПосещенийКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ОстатокПосещенийРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<CheckBoxField name="Заморожен" id="20">
+					<DataPath>Объект.Заморожен</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЗамороженКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ЗамороженРасширеннаяПодсказка" id="22"/>
+				</CheckBoxField>
+				<CheckBoxField name="Активен" id="23">
+					<DataPath>Объект.Активен</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="АктивенКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="АктивенРасширеннаяПодсказка" id="25"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.АбонементыКлиентов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
